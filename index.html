@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Left sidebar -->
+        <div class="sidebar">
+            <h2>Chats</h2>
+
+            <div class="chat-list">
+                <div class="chat-item active">
+                    <div class="avatar">J</div>
+                    <div class="chat-info">
+                        <h4>John</h4>
+                        <p>Hello there!</p>
+                    </div>
+                </div>
+
+                <div class="chat-item">
+                    <div class="avatar">S</div>
+                    <div class="chat-info">
+                        <h4>Sarah</h4>
+                        <p>How are you?</p>
+                    </div>
+                </div>
+
+                <div class="chat-item">
+                    <div class="avatar">M</div>
+                    <div class="chat-info">
+                        <h4>Mike</h4>
+                        <p>See you later</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right chat area -->
+        <div class="chat-window">
+            <!-- Header -->
+            <div class="header">
+                <h3>John</h3>
+            </div>
+
+            <!-- Messages -->
+            <div class="messages">
+                <div class="message other">
+                    <p>Hi! How are you?</p>
+                </div>
+
+                <div class="message other">
+                    <p>Did you finish the project?</p>
+                </div>
+
+                <div class="message own">
+                    <p>Hey! I'm doing great!</p>
+                </div>
+
+                <div class="message own">
+                    <p>Yes, I finished it!</p>
+                </div>
+
+                <div class="message other">
+                    <p>That's amazing! Let me check it</p>
+                </div>
+
+                <div class="message own">
+                    <p>Thanks! Let me know what you think</p>
+                </div>
+            </div>
+
+            <!-- Input -->
+            <div class="input-area">
+                <input type="text" placeholder="Type a message...">
+                <button>Send</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
